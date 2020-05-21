@@ -9,7 +9,7 @@ from datetime import datetime
 
 import datetime
 database = "test"
-db_uri = "mongodb+srv://andras:020906ygg@cluster0-ztzvh.mongodb.net/test?retryWrites=true&w=majority"
+db_uri = "mongodb+srv://andras:563D@cluster0-ztzvh.mongodb.net/test?retryWrites=true&w=majority"
 db = connect(database, host=db_uri)
 
 class AirApi(Document):
